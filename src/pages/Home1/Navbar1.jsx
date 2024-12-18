@@ -22,9 +22,10 @@ const Navbar1 = ({ outline }) => {
         </li>
         <li className="transition-colors relative drop">
             <button className="flex items-center">Blog <IoIosArrowDown /></button>
-            <ul className="absolute top-12 bg-[#0c1315] w-44 rounded-[10px] tra p-6 space-y-4 z-50">
+            <ul className="absolute top-12 bg-[#0c1315] w-44 rounded-[10px] tra p-6 space-y-5 z-50">
             <li className="hover:text-[#C9AB81] transition-colors"><Link to='/blog1'>Blog 1</Link></li>
-            <li className="hover:text-[#C9AB81] transition-colors"><Link to='/blog2'>Blog 2</Link></li>
+            <li className="hover:text-[#C9AB81] transition-colors"><Link to='/blog2'>Blog 2 </Link></li>
+            <li className="hover:text-[#C9AB81] transition-colors"><Link to='/blog2'>Blog 2 </Link></li>
             </ul>
         </li>
         <li className="transition-colors relative drop">
