@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Chicken Biryani",
+      "image": "https://i.ibb.co.com/tM072JG/Image-10.png",
+      "rating": 4.5,
+      "price": 100,
+      "discountPrice": 75
+    },
+    {
+      "id": 2,
+      "name": "Parata Role",
+      "image": "https://i.ibb.co.com/f4TbgwJ/Image-11.png",
+      "rating": 4.2,
+      "price": 60,
+      "discountPrice": 50
+    },
+    {
+      "id": 3,
+      "name": "Chicken Soup",
+      "image": "https://i.ibb.co.com/3mNm7QD/Image-12.png",
+      "rating": 3.8,
+      "price": 90,
+      "discountPrice": 80
+    },
+    {
+      "id": 4,
+      "name": "Fruit Chart",
+      "image": "https://i.ibb.co.com/VNDLK2H/Image-13.png",
+      "rating": 4.7,
+      "price": 150,
+      "discountPrice": 125
+    },
+    {
+      "id": 5,
+      "name": "Chicken Salad Seeds",
+      "image": "https://i.ibb.co.com/7RrbK0K/Image-14.png",
+      "rating": 4.3,
+      "price": 75,
+      "discountPrice": 60
+    }
+  ]

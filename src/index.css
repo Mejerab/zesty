@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.playfair {
+    font-family: "Playfair Display", serif;
+}
+
+.inter {
+    font-family: "Inter", serif;
+}
+.corpo{
+    font-family: "Cormorant", serif;
+}
+.jost{
+    font-family: "Jost", sans-serif;
+}
+
+.tra {
+    transition: all .4s ease-in-out;
+}
+.drop ul{
+    opacity: 0;
+    visibility: hidden;
+}
+.drop:hover ul{
+    opacity: 1;
+    top: 2.5rem;
+    visibility: visible;
+}
+.arrow:hover svg {
+    transform: rotate(0);
+}
+@keyframes spin{
+    0%{transform: rotate(0);}
+    100%{transform: rotate(360deg);}
+}
+.spin{
+    animation: spin 12s linear infinite;
+}
+.stop-animation:hover .spin{
+    animation-play-state: paused;
+}
+.confirm-swal{
+    background-color: #fff;
+    color: #C9AB81;
+}
+.food:hover .rot{
+    transform: rotate(-12deg);
+    border-color: #C9AB81;
+}
+[data-aos="custom-rotate"] {
+    transform: rotate(0deg); /* Start state */
+    transition: transform 1s ease-in-out; /* Smooth rotation */
+  }
+  
+  [data-aos="custom-rotate"].aos-animate {
+    transform: rotate(13deg); /* End state */
+  }
+[data-aos="custom-rotate2"] {
+    transform: rotate(0deg); /* Start state */
+    transition: transform 1s ease-in-out; /* Smooth rotation */
+  }
+  
+  [data-aos="custom-rotate2"].aos-animate {
+    transform: rotate(28deg); /* End state */
+  }
+  .content{
+    opacity: 0;
+    visibility: hidden;
+    top: -3.5rem;
+  }
+.chef-hover:hover .content{
+  top: -4rem;
+  opacity: 1;
+  visibility: visible;
+}
+.swiper-pagination-bullet{
+    position: relative;
+    width: 20px !important;
+    height: 20px !important;
+    background-color: transparent !important;
+    border: 1px solid #C9AB81;
+}
+.swiper-pagination-bullet::after{
+    content: '';
+    visibility: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 4.3px;
+    left: 4.38px;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #fff !important;
+}
+.swiper-pagination-bullet-active::after{
+    visibility: visible;
+}
+.range-container {
+    background-color: #d1b084; /* Beige background */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the range input */
+  
+#food .MuiRating-root{
+  color: #C9AB81;
+}
+.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{
+    color: #C9AB81 !important;
+    border: #C9AB81 !important;
+}

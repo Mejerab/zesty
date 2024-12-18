@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Darrell Steward",
+      "image": "https://i.ibb.co.com/93H3w6Z/Image-8.png",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Guy Hawkins",
+      "image": "https://i.ibb.co.com/vXmbswQ/Image-9.png",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Theresa Webb",
+      "image": "https://i.ibb.co.com/JzYhYb2/Image-10.png",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "name": "Marvin McKinney",
+      "image": "https://i.ibb.co.com/yh1wsSb/Image-11.png",
+      "rating": 3.9
+    },
+    {
+      "id": 5,
+      "name": "Arlene McCoy",
+      "image": "https://i.ibb.co.com/pXx3jT8/Image-12.png",
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "name": "Cameron Williamson",
+      "image": "https://i.ibb.co.com/GRB4Vgf/Image-13.png",
+      "rating": 5.0
+    }
+  ]
+  
