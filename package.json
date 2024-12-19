@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+  "script": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -41,8 +42,5 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "vite": "^5.4.10"
-  },
-  "engines": {
-    "node": ">=16.0.0"
   }
 }
