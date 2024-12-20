@@ -1,7 +1,7 @@
 import Banner from "./Banner";
 import Footer from "./Home1/Footer";
 import Navbar1 from "./Home1/Navbar1";
-import News from "./Home1/news";
+import News from "./Home1/News";
 
 const Blog1 = () => {
     return (
