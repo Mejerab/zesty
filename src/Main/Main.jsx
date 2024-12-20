@@ -10,9 +10,6 @@ const Main = () => {
             once: true,
             easing: 'ease-out'
         })
-        if (window.location.pathname !== '/') {
-          window.location.replace('/'); // Redirect to the root
-        }
     }, [])
     return (
         <div className="bg-[#1B1B1B] overflow-hidden text-white">
