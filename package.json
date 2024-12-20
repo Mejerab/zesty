@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "start": "npm start",
-    "install": "npm install",
     "lint": "eslint .",
     "preview": "vite preview"
   },
