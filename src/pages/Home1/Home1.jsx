@@ -4,7 +4,7 @@ import Discount from "./Discount";
 import Faq from "./Faq";
 import Footer from "./Footer";
 import Header1 from "./Header1";
-import News from "./news";
+import News from "./News";
 import Recipes from "./Recipes";
 import Reserva1 from "./Reserva1";
 import SpecialFood1 from "./SpecialFood1";
