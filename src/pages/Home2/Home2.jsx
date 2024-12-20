@@ -4,7 +4,7 @@ import About2 from "./About2";
 import Chefs from "./Chefs";
 import Header2 from "./Header2";
 import Menu from "./Menu";
-import News2 from "./news2";
+import News2 from "./News2";
 import Reserva2 from "./Reserva2";
 import SpecialFood2 from "./SpecialFood2";
 import Stat from "./Stat";
