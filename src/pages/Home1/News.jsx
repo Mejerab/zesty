@@ -28,7 +28,7 @@ const News = () => {
                             <HiOutlineUserCircle className="text-[1.2rem] -mt-[0.1rem] text-[#C9AB81]" />
                             <p className="text-[16px] inter text-[#BABBC3]">Admin</p>
                         </div>
-                        <h4 className="playfair mt-6 mb-5 text-[32px] font-medium">Behind the Scenes of Our Signature Dishes"</h4>
+                        <h4 className="playfair mt-6 mb-5 text-[32px] font-medium">Behind the Scenes of Our Signature Dishes</h4>
                         <button className="btn w-[170px] h-[53px] tra font-medium arrow hover:bg-black hover:text-[#C9AB81] tra text-[16px] inter bg-[#C9AB81] text-black rounded-[10px] border-0 hover:border-0">Read More<TiArrowRight className="transition-transform text-2xl -rotate-45" /></button>
                     </div>
                 </div>
